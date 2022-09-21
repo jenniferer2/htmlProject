@@ -4,9 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Favorites</title>
 </head>
+
+<style>
+    .page {
+        text-align: center;
+        height: 900px;
+       background-image: linear-gradient(rgb(50, 181, 213), rgb(159, 159, 220)) 
+    }
+    img{
+
+    width:100x;
+    height:400px;
+    float:left;
+    margin-right:10px;
+    margin-left: 30%;
+
+    }
+    </style>
 <body>
-    
+    <div class = "page">
+    <h1> What I like to spend my time on! </h1>
+    <p>I like to listen to music in my free time, especially the Weeknd </p>
+
+    <audio controls autoplay autoplay muted>
+        <source src="The_Weeknd_-_After_Hours.mp3" type="audio/ogg">
+      Your browser does not support the audio element.
+      </audio>
+
+      <p> I also love to watch kdramas! My favorite one at the moment is Crash Landing on You! </p>
+      <video width="320" height="240" controls>
+        <source src="crashlanding.mp4" type="video/mp4">
+        
+      Your browser does not support the video tag.
+      </video>
+      <p>My favorite genre of movies are thriller!! My favorite movie at the moment is Get Out by Jordan Peele. Check out this poster <br> </p>
+      <img src="images/getout.jpg" alt="getout">
+
+      <p><br><br><br>Thanks for getting this far into my website. Tell me your name!</p> 
+
+      <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name initial:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit"><br><br>
+      </form>
+
+      <a href="index.html"> Go Back to Homepage </a>
+      </div>
+
+
 </body>
 </html>
